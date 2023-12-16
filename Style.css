@@ -262,7 +262,7 @@ ul a:hover{
       font-family: Inter;
       text-decoration: none;
   }
-/* novi kod*/
+
 .hero-hr-wrapper{
       position: relative;
       top: 150px;
@@ -321,7 +321,7 @@ ul a:hover{
       color: white;
       font-size: 24px;
   }
-/*page 2*/
+
 .container-pages{
       height: auto;
       margin: 0 auto 200px;
@@ -330,11 +330,11 @@ ul a:hover{
       position: relative;
       top: 80px;
   }
-/*page 3*/
+
 .bc-img{
       width: 276px;
   }
-/*contact*/
+
 .form-wrapper{
       align-items: center;
       border: 1px solid red ;
