@@ -5,6 +5,7 @@ body, html {
       padding: 0;
       position: relative;
       scrollbar-width: none;
+      scroll-behavior: smooth;
   }
 body::-webkit-scrollbar {
       display: none;
@@ -203,7 +204,7 @@ ul a:hover{
       position: absolute;
       width: 100%;
   }
-.preview-section{
+#preview-section{
       min-height: 100vh;
       position: relative;
   }
@@ -221,7 +222,7 @@ ul a:hover{
       top: 50px;
       width: 300px;
   }
-.preview-section{
+#preview-section{
       overflow: hidden;
   }
 .big-hr{
@@ -347,7 +348,7 @@ ul a:hover{
       padding: 0 0 40px 0 ;
       position: relative;
       top: 250px;
-      width: 90%;
+      width: 60%;
   }
 
 
@@ -357,7 +358,7 @@ ul a:hover{
 
 .form-wrapper form{
       height: auto;
-      width: 90%;
+      width: 85%;
   }
 input{
       background-color: transparent;
@@ -510,6 +511,10 @@ label{
       padding: 10px 0;
     }
 
+    .form-wrapper{
+      width: 95%;
+    }
+
     .section-title{
       font-size: 50px;
     }
@@ -609,6 +614,10 @@ label{
 
     .form-sec{
       padding-bottom: 90px;
+    }
+
+    #message{
+      height: 100px;
     }
    
 }
