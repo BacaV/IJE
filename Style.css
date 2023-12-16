@@ -420,7 +420,7 @@ label{
   }
 
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:1024px) and (min-width:768px) {
 
     .container-nav{
       display: block;
@@ -532,7 +532,7 @@ label{
     
 
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:450px) and (min-width:320px) {
 
   .container-nav{
      display: flex;
